@@ -11,7 +11,7 @@ export default function Projects() {
 
   return (
     <div>
-      <PageHero kicker="PORTFOLIO / 640+ DELIVERED" title={<>Proof, not<br /><span className="text-orange-500">promises.</span></>} sub="A sample of flagship EPC work — every figure below is from final measurement sheets, not renders." image="/images/project-bridge.jpg" />
+      <PageHero kicker="PORTFOLIO / 640+ DELIVERED" title={<>Proof, not<br /><span className="text-orange-500">promises.</span></>} sub="A sample of flagship EPC work — every figure below is from final measurement sheets, not renders." image="./images/project-bridge.jpg" />
       <section className="py-14 md:py-20 bg-[#F1F3F6] blueprint-dark min-h-[60vh]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row lg:items-center gap-4 justify-between mb-8">

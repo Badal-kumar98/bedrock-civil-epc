@@ -32,7 +32,7 @@ export default function Contact() {
 
   return (
     <div>
-      <PageHero kicker="CONTACT / RESPONSE < 24 HRS" title={<>Let's talk<br /><span className="text-orange-500">loads.</span></>} sub="Drawings, survey data or just an idea — a licensed PE replies within one business day." image="/images/hero-site.jpg" />
+      <PageHero kicker="CONTACT / RESPONSE < 24 HRS" title={<>Let's talk<br /><span className="text-orange-500">loads.</span></>} sub="Drawings, survey data or just an idea — a licensed PE replies within one business day." image="./images/hero-site.jpg" />
 
       <section className="py-14 md:py-20 bg-[#F1F3F6] blueprint-dark">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[1.15fr_1fr] gap-6">

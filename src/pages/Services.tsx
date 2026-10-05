@@ -9,7 +9,7 @@ const iconMap: Record<string, any> = { Building2, Route, Mountain, Waves, Milest
 export default function Services() {
   return (
     <div>
-      <PageHero kicker="SERVICES / 08 DISCIPLINES" title={<>One contractor.<br /><span className="text-orange-500">Every discipline.</span></>} sub="Survey to handover under one roof — no subcontractor roulette, one point of accountability, one P&L." image="/images/survey.jpg" />
+      <PageHero kicker="SERVICES / 08 DISCIPLINES" title={<>One contractor.<br /><span className="text-orange-500">Every discipline.</span></>} sub="Survey to handover under one roof — no subcontractor roulette, one point of accountability, one P&L." image="./images/survey.jpg" />
       <section className="py-16 md:py-24 bg-[#F1F3F6] blueprint-dark">
         <div className="max-w-7xl mx-auto px-6 space-y-5">
           {services.map((s, i) => {

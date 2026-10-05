@@ -89,7 +89,7 @@ export default function Tools() {
 
   return (
     <div>
-      <PageHero kicker="ENGINEERING TOOLBOX / FREE" title={<>Run the numbers<br /><span className="text-orange-500">in seconds.</span></>} sub="Five site-grade calculators our own engineers use for quick checks. For stamped design, talk to us." image="/images/survey.jpg" />
+      <PageHero kicker="ENGINEERING TOOLBOX / FREE" title={<>Run the numbers<br /><span className="text-orange-500">in seconds.</span></>} sub="Five site-grade calculators our own engineers use for quick checks. For stamped design, talk to us." image="./images/survey.jpg" />
       <section className="py-14 md:py-20 bg-[#F1F3F6] blueprint-dark">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">

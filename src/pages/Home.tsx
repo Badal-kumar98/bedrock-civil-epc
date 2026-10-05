@@ -25,7 +25,7 @@ export default function Home() {
     <div>
       {/* HERO */}
       <section className="relative min-h-[100svh] flex items-end bg-[#0A1628] text-white overflow-hidden">
-        <img src="/images/hero-site.jpg" alt="Construction site at sunset" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="./images/hero-site.jpg" alt="Construction site at sunset" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0A1628] via-[#0A1628]/55 to-[#0A1628]/25" />
         <div className="absolute inset-0 blueprint-grid opacity-60" />
         <div className="relative max-w-7xl mx-auto px-6 pt-[160px] pb-14 w-full">
@@ -148,7 +148,7 @@ export default function Home() {
           {/* safety banner */}
           <Reveal>
             <div className="mt-14 bg-[#0A1628] text-white rounded-sm overflow-hidden grid lg:grid-cols-[1fr_1.2fr]">
-              <img src="/images/team-site.jpg" alt="Engineers reviewing drawings" className="h-64 lg:h-full w-full object-cover" />
+              <img src="./images/team-site.jpg" alt="Engineers reviewing drawings" className="h-64 lg:h-full w-full object-cover" />
               <div className="p-8 md:p-12">
                 <div className="flex items-center gap-2 text-orange-400 font-mono text-xs tracking-[0.25em] uppercase"><ShieldCheck size={16} /> Zero-harm safety culture</div>
                 <h3 className="font-display font-bold uppercase text-4xl md:text-5xl leading-[0.95] mt-4">14 million safe<br />man-hours & counting.</h3>

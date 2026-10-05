@@ -23,7 +23,7 @@ const certs = ["ISO 9001:2015 Quality", "ISO 14001 Environment", "ISO 45001 Safe
 export default function About() {
   return (
     <div>
-      <PageHero kicker="ABOUT / SINCE 1994" title={<>Engineers who<br /><span className="text-orange-500">own the outcome.</span></>} sub="900+ engineers, surveyors and builders. One P&L, one safety record, one promise: assets that outlive us." image="/images/team-site.jpg" />
+      <PageHero kicker="ABOUT / SINCE 1994" title={<>Engineers who<br /><span className="text-orange-500">own the outcome.</span></>} sub="900+ engineers, surveyors and builders. One P&L, one safety record, one promise: assets that outlive us." image="./images/team-site.jpg" />
 
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
@@ -39,10 +39,10 @@ export default function About() {
           </Reveal>
           <Reveal delay={0.1}>
             <div className="grid grid-cols-2 gap-4">
-              <img src="/images/survey.jpg" alt="Survey crew" className="rounded-sm h-64 w-full object-cover" />
-              <img src="/images/project-tower.jpg" alt="Tower steel" className="rounded-sm h-64 w-full object-cover mt-8" />
-              <img src="/images/project-tunnel.jpg" alt="Tunnel" className="rounded-sm h-64 w-full object-cover -mt-8" />
-              <img src="/images/project-dam.jpg" alt="Dam" className="rounded-sm h-64 w-full object-cover" />
+              <img src="./images/survey.jpg" alt="Survey crew" className="rounded-sm h-64 w-full object-cover" />
+              <img src="./images/project-tower.jpg" alt="Tower steel" className="rounded-sm h-64 w-full object-cover mt-8" />
+              <img src="./images/project-tunnel.jpg" alt="Tunnel" className="rounded-sm h-64 w-full object-cover -mt-8" />
+              <img src="./images/project-dam.jpg" alt="Dam" className="rounded-sm h-64 w-full object-cover" />
             </div>
           </Reveal>
         </div>

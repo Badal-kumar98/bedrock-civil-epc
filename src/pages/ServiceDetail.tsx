@@ -16,7 +16,7 @@ export default function ServiceDetail() {
   return (
     <div>
       <section className="relative bg-[#0A1628] text-white overflow-hidden pt-[104px]">
-        <img src="/images/team-site.jpg" alt="" className="absolute inset-0 w-full h-full object-cover opacity-20" />
+        <img src="./images/team-site.jpg" alt="" className="absolute inset-0 w-full h-full object-cover opacity-20" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0A1628] via-[#0A1628]/85 to-[#0A1628]/40" />
         <div className="absolute inset-0 blueprint-grid" />
         <div className="relative max-w-7xl mx-auto px-6 py-16 md:py-24">

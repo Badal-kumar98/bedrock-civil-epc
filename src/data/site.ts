@@ -115,7 +115,7 @@ export const projects: Project[] = [
     value: "$486M",
     duration: "52 months",
     scope: "EPC · Design + Build",
-    image: "/images/project-bridge.jpg",
+    image: "./images/project-bridge.jpg",
     status: "Completed",
     description:
       "A 2.9 km cable-stayed crossing with a 420 m main span and 132 m diamond pylons. Balanced-cantilever segments were cast in a dedicated yard and erected with a 450-tonne derrick, while navigation spans stayed open throughout — zero marine closures in 4 years.",
@@ -138,7 +138,7 @@ export const projects: Project[] = [
     value: "$312M",
     duration: "38 months",
     scope: "EPC · 4-lane access-controlled",
-    image: "/images/project-highway.jpg",
+    image: "./images/project-highway.jpg",
     status: "Ongoing",
     description:
       "A 34 km access-controlled expressway with a 4-level stack interchange, 11 flyovers and 6 underpasses. 4.2 million m³ of earthwork moved with GPS-guided dozers; rigid pavement designed for 30-year life under 120 MSA loading.",
@@ -161,7 +161,7 @@ export const projects: Project[] = [
     value: "$528M",
     duration: "64 months",
     scope: "EPC · Dam + powerhouse",
-    image: "/images/project-dam.jpg",
+    image: "./images/project-dam.jpg",
     status: "Completed",
     description:
       "An 86 m high concrete gravity dam impounding 1.4 BCM for irrigation and 2×60 MW hydropower. Roller-compacted concrete placed at 9,000 m³/day peak, with a morning-glory spillway rated for a 10,000-year flood.",
@@ -184,7 +184,7 @@ export const projects: Project[] = [
     value: "$264M",
     duration: "44 months",
     scope: "Design-build · Core + shell",
-    image: "/images/project-tower.jpg",
+    image: "./images/project-tower.jpg",
     status: "Completed",
     description:
       "A 62-storey composite tower on a 4 m raft over 84 bored piles. Outrigger-and-belt truss system holds drift to H/600 under cyclonic wind; jump-form core climbed a floor every 4 days at peak.",
@@ -207,7 +207,7 @@ export const projects: Project[] = [
     value: "$398M",
     duration: "48 months",
     scope: "Design-build · TBM",
-    image: "/images/project-tunnel.jpg",
+    image: "./images/project-tunnel.jpg",
     status: "Ongoing",
     description:
       "Twin 6.8 km EPB-TBM bores through mixed alluvium and weathered rock, with two underground stations built top-down. Surface settlement held under 12 mm against a 25 mm limit — beneath a live heritage precinct.",
@@ -230,7 +230,7 @@ export const projects: Project[] = [
     value: "$196M",
     duration: "40 months",
     scope: "EPC · Residential township",
-    image: "/images/project-marina.jpg",
+    image: "./images/project-marina.jpg",
     status: "Completed",
     description:
       "Five 28-storey waterfront towers with a 3-level podium on reclaimed marine clay — solved with 1,200 stone columns plus preloading. Sea-facing durability: C50 concrete with corrosion inhibitors and a 100-year design life.",
@@ -254,21 +254,21 @@ export const team = [
     role: "Chief Structural Engineer",
     creds: "PE · SE · 24 yrs",
     bio: "Led 60+ high-rise and long-span designs. Ex–Arup associate; publishes on performance-based seismic design.",
-    image: "/images/lead-1.jpg",
+    image: "./images/lead-1.jpg",
   },
   {
     name: "Engr. Marcus Hale",
     role: "Director, Bridges & Highways",
     creds: "PE · PEng · 28 yrs",
     bio: "Delivered 9 major river crossings including two cable-stayed bridges. FIDIC contracts specialist.",
-    image: "/images/lead-2.jpg",
+    image: "./images/lead-2.jpg",
   },
   {
     name: "Engr. David Okafor",
     role: "Head of Geotechnics & Dams",
     creds: "PhD Geotech · 19 yrs",
     bio: "Dam-safety panel expert; pioneered RCC thermal-crack control methods now used across three states.",
-    image: "/images/lead-3.jpg",
+    image: "./images/lead-3.jpg",
   },
 ];
 

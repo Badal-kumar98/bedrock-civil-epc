@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Barlow Condensed", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-ink: #0A1628;
+  --color-steel: #12263F;
+  --color-steel-light: #1D3A5F;
+  --color-safety: #F97316;
+  --color-safety-dark: #C2410C;
+  --color-concrete: #F1F3F6;
+  --color-line: #E2E8F0;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: #fff; color: #0A1628; -webkit-font-smoothing: antialiased; }
+.font-display { font-family: var(--font-display); }
+
+.hazard {
+  background-image: repeating-linear-gradient(-45deg, #F97316 0 14px, #0A1628 14px 28px);
+}
+.hazard-thin {
+  background-image: repeating-linear-gradient(-45deg, #F97316 0 10px, transparent 10px 20px);
+}
+.blueprint-grid {
+  background-image: linear-gradient(rgba(255,255,255,0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.07) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+.blueprint-dark {
+  background-image: linear-gradient(rgba(10,22,40,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(10,22,40,0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+.text-stroke {
+  -webkit-text-stroke: 1px rgba(255,255,255,0.35);
+  color: transparent;
+}
+.marquee-track { animation: marquee 28s linear infinite; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+::selection { background: #F97316; color: white; }

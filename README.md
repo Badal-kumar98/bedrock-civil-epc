@@ -2,7 +2,7 @@
 
 > **Enterprise-grade civil infrastructure, structural engineering, and EPC contractor web portal built with React 19, TypeScript, and Tailwind CSS v4.**
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-d6ff3f?style=for-the-badge&logo=githubpages&logoColor=black)](https://badal-kumar98.github.io/bedrock-civil-epc/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-d6ff3f?style=for-the-badge&logo=githubpages&logoColor=black)](https://badal-kumar98.github.io/civil-engineer-epc/)
 [![Developer](https://img.shields.io/badge/Developer-Badal_Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/badal-kumar-200b45324)
 
 ---
@@ -33,10 +33,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/Badal-kumar98/bedrock-civil-epc.git
+git clone https://github.com/Badal-kumar98/civil-engineer-epc.git
 
 # Navigate into directory
-cd bedrock-civil-epc
+cd civil-engineer-epc
 
 # Install dependencies
 npm install

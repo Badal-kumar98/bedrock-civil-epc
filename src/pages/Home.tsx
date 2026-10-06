@@ -7,7 +7,7 @@ import { services, projects, testimonials, news, clients } from "../data/site";
 const iconMap: Record<string, any> = { Building2, Route, Mountain, Waves, Milestone, Drill, HardHat, ScanLine };
 
 const stats = [
-  { v: 32, suffix: "+", label: "Years in operation", sub: "since 1994" },
+  { v: 32, suffix: "+", label: "Years in operation", sub: "Infrastructure EPC" },
   { v: 640, suffix: "+", label: "Projects delivered", sub: "across 14 states" },
   { v: 2.4, suffix: "B", decimals: 1, label: "Contract value managed", sub: "in USD" },
   { v: 14, suffix: "M", label: "Safe man-hours", sub: "zero-harm culture" },
@@ -38,7 +38,7 @@ export default function Home() {
               We build what<br />cities <span className="text-orange-500">stand on.</span>
             </h1>
             <p className="mt-6 max-w-xl text-white/75 text-base md:text-lg leading-relaxed">
-              Bedrock Civil is a full-service civil engineering & EPC contractor. 640+ bridges, expressways, dams, tunnels and towers delivered in 32 years — on spec, on schedule, zero-harm.
+              Civil Engineer is a full-service civil engineering & EPC contractor. 640+ bridges, expressways, dams, tunnels and towers delivered — on spec, on schedule, zero-harm.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link to="/contact" className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-400 text-[#0A1628] font-bold text-sm uppercase tracking-widest px-7 py-4 rounded-sm transition">Start your project <ArrowUpRight size={18} strokeWidth={2.5} /></Link>
@@ -230,7 +230,7 @@ export default function Home() {
                 <p className="text-white/65 mt-4">Send drawings, a survey, or just an idea. A licensed PE responds within one business day with next steps and a budget range.</p>
                 <div className="flex flex-wrap gap-3 mt-8">
                   <Link to="/contact" className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-400 text-[#0A1628] font-bold text-sm uppercase tracking-widest px-7 py-4 rounded-sm transition">Request a quote <ArrowUpRight size={18} /></Link>
-                  <a href="tel:+18005550194" className="inline-flex items-center gap-2 border border-white/25 hover:border-orange-400 hover:text-orange-400 font-bold text-sm uppercase tracking-widest px-7 py-4 rounded-sm transition"><Phone size={17} /> +1 (800) 555-0194</a>
+                  <a href="tel:1234567890" className="inline-flex items-center gap-2 border border-white/25 hover:border-orange-400 hover:text-orange-400 font-bold text-sm uppercase tracking-widest px-7 py-4 rounded-sm transition"><Phone size={17} /> +91 1234567890</a>
                 </div>
               </div>
             </div>

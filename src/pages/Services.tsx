@@ -12,13 +12,12 @@ export default function Services() {
       <PageHero kicker="SERVICES / 08 DISCIPLINES" title={<>One contractor.<br /><span className="text-orange-500">Every discipline.</span></>} sub="Survey to handover under one roof — no subcontractor roulette, one point of accountability, one P&L." image="./images/survey.jpg" />
       <section className="py-16 md:py-24 bg-[#F1F3F6] blueprint-dark">
         <div className="max-w-7xl mx-auto px-6 space-y-5">
-          {services.map((s, i) => {
+          {services.map((s) => {
             const Icon = iconMap[s.icon] ?? Building2;
-            const flip = i % 2 === 1;
             return (
               <Reveal key={s.slug}>
-                <div className={`bg-white border border-[#E2E8F0] hover:border-[#0A1628] transition rounded-sm overflow-hidden grid md:grid-cols-[220px_1fr_auto] group`}>
-                  <div className={`bg-[#0A1628] text-white p-8 flex flex-col justify-between gap-6 relative overflow-hidden ${flip ? "md:order-3" : ""}`}>
+                <div className="bg-white border border-[#E2E8F0] hover:border-[#0A1628] transition rounded-sm overflow-hidden grid md:grid-cols-[220px_1fr_auto] group">
+                  <div className="bg-[#0A1628] text-white p-8 flex flex-col justify-between gap-6 relative overflow-hidden">
                     <div className="absolute inset-0 blueprint-grid" />
                     <Icon size={44} className="text-orange-500 relative" strokeWidth={1.5} />
                     <p className="font-mono text-xs tracking-[0.3em] text-white/50 relative">{s.code}</p>

@@ -25,14 +25,10 @@ body { font-family: var(--font-body); background: #fff; color: #0A1628; -webkit-
   background-image: repeating-linear-gradient(-45deg, #F97316 0 10px, transparent 10px 20px);
 }
 .blueprint-grid {
-  background-image: linear-gradient(rgba(255,255,255,0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.07) 1px, transparent 1px);
-  background-size: 36px 36px;
+  display: none !important;
 }
 .blueprint-dark {
-  background-image: linear-gradient(rgba(10,22,40,0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(10,22,40,0.06) 1px, transparent 1px);
-  background-size: 32px 32px;
+  background-image: none !important;
 }
 .text-stroke {
   -webkit-text-stroke: 1px rgba(255,255,255,0.35);

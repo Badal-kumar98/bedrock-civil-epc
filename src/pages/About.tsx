@@ -4,7 +4,7 @@ import { Reveal, SectionTag, Counter, PageHero } from "../components/ui";
 import { team, testimonials } from "../data/site";
 
 const timeline = [
-  { y: "1994", t: "Two engineers, one theodolite", d: "Founded in Houston with 6 staff doing surveying and proof-checking for local builders." },
+  { y: "Phase 1", t: "Two engineers, one theodolite", d: "Founded with dedicated staff doing precision surveying and proof-checking for quality infrastructure." },
   { y: "2003", t: "First EPC contract — $18M river bridge", d: "Won our first design-build bridge. Delivered 3 months early; the EPC model stuck." },
   { y: "2011", t: "Geotech lab + dam division", d: "Opened NABL-accredited soils lab, drilling fleet and a dedicated water & dams studio." },
   { y: "2017", t: "Tunnelling & metro entry", d: "Acquired twin EPB-TBMs and a NATM crew — first metro tunnel delivered in 2019." },
@@ -23,14 +23,14 @@ const certs = ["ISO 9001:2015 Quality", "ISO 14001 Environment", "ISO 45001 Safe
 export default function About() {
   return (
     <div>
-      <PageHero kicker="ABOUT / SINCE 1994" title={<>Engineers who<br /><span className="text-orange-500">own the outcome.</span></>} sub="900+ engineers, surveyors and builders. One P&L, one safety record, one promise: assets that outlive us." image="./images/team-site.jpg" />
+      <PageHero kicker="ABOUT / CIVIL EPC CONTRACTOR" title={<>Engineers who<br /><span className="text-orange-500">own the outcome.</span></>} sub="900+ engineers, surveyors and builders. One P&L, one safety record, one promise: assets that outlive us." image="./images/team-site.jpg" />
 
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
           <Reveal>
             <SectionTag index="01" label="Who we are" />
             <h2 className="font-display font-bold uppercase leading-[0.9] text-5xl md:text-6xl">A contractor that thinks like a consultant<span className="text-orange-500">.</span></h2>
-            <p className="mt-5 text-[#0A1628]/70 leading-relaxed">Bedrock Civil began as a two-person surveying outfit in 1994. Today we're a full EPC contractor — but the consultant's DNA survived: investigate obsessively, model everything, document religiously. Then build it like we own it for 100 years. Because contractually, for 5 of them, we do.</p>
+            <p className="mt-5 text-[#0A1628]/70 leading-relaxed">Civil Engineer began as a dedicated surveying outfit. Today we're a full EPC contractor — but the consultant's DNA survived: investigate obsessively, model everything, document religiously. Then build it like we own it for 100 years. Because contractually, for 5 of them, we do.</p>
             <div className="grid grid-cols-3 gap-4 mt-8">
               {["900+ staff", "4 offices", "32 yrs"].map((s, i) => (
                 <div key={i} className="bg-[#F1F3F6] border border-[#E2E8F0] rounded-sm p-4 text-center font-display font-bold text-2xl uppercase">{s}</div>

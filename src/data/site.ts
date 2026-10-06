@@ -275,7 +275,7 @@ export const team = [
 export const testimonials = [
   {
     quote:
-      "Bedrock delivered our river crossing four months early without a single lost-time injury in 6.2 million man-hours. Their segment-yard planning was textbook.",
+      "Civil Engineer delivered our river crossing four months early without a single lost-time injury in 6.2 million man-hours. Their segment-yard planning was textbook.",
     name: "Rajesh Menon",
     role: "Project Director, State Highways Authority",
     project: "Harbourlink Bridge",

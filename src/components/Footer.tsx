@@ -9,10 +9,10 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 rounded-lg bg-orange-500 grid place-items-center text-[#0A1628] font-bold text-2xl font-display">B</div>
+              <div className="w-10 h-10 rounded-lg bg-orange-500 grid place-items-center text-[#0A1628] font-bold text-2xl font-display">C</div>
               <div className="leading-none">
-                <p className="font-display font-bold text-[22px] tracking-wide">BEDROCK<span className="text-orange-500">CIVIL</span></p>
-                <p className="font-mono text-[10px] tracking-[0.3em] text-white/50">EST. 1994</p>
+                <p className="font-display font-bold text-[22px] tracking-wide">CIVIL<span className="text-orange-500">ENGINEER</span></p>
+                <p className="font-mono text-[10px] tracking-[0.3em] text-white/50">EPC CONTRACTOR</p>
               </div>
             </div>
             <p className="text-white/60 text-sm leading-relaxed">Full-service civil engineering & EPC contractor. Bridges, highways, dams, tunnels and towers — engineered for a 100-year life.</p>
@@ -44,15 +44,15 @@ export default function Footer() {
           <div>
             <p className="font-mono text-xs tracking-[0.25em] text-orange-400 mb-5">HEAD OFFICE</p>
             <ul className="space-y-3 text-sm text-white/70">
-              <li className="flex gap-2.5"><MapPin size={16} className="text-orange-400 shrink-0 mt-0.5" /> 400 Meridian Parkway, Suite 1200<br />Houston, TX 77001</li>
-              <li className="flex gap-2.5 items-center"><Phone size={16} className="text-orange-400 shrink-0" /> +1 (800) 555-0194</li>
-              <li className="flex gap-2.5 items-center"><Mail size={16} className="text-orange-400 shrink-0" /> build@bedrockcivil.com</li>
+              <li className="flex gap-2.5"><MapPin size={16} className="text-orange-400 shrink-0 mt-0.5" /> Sector 62, Noida<br />Delhi NCR, India - 201301</li>
+              <li className="flex gap-2.5 items-center"><Phone size={16} className="text-orange-400 shrink-0" /> <a href="tel:1234567890" className="hover:text-orange-400 transition">+91 1234567890</a></li>
+              <li className="flex gap-2.5 items-center"><Mail size={16} className="text-orange-400 shrink-0" /> <a href="mailto:testcivil@gmail.com" className="hover:text-orange-400 transition">testcivil@gmail.com</a></li>
               <li className="flex gap-2.5 items-center"><Clock size={16} className="text-orange-400 shrink-0" /> Mon–Sat · 8:00–18:00</li>
             </ul>
           </div>
         </div>
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row justify-between gap-3 text-xs text-white/40 font-mono tracking-wide">
-          <p>© 2026 BEDROCK CIVIL ENGINEERING CO. ALL RIGHTS RESERVED.</p>
+          <p>© 2026 CIVIL ENGINEER CO. ALL RIGHTS RESERVED.</p>
           <p>LIC. #CE-88412 · ISO 9001 / 14001 / 45001 · C-CLASS CONTRACTOR</p>
         </div>
       </div>

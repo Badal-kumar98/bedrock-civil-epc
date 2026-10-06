@@ -207,7 +207,7 @@ export default function Tools() {
               </div>
             </div>
           </Reveal>
-          <p className="mt-6 text-xs text-[#0A1628]/45 leading-relaxed max-w-3xl">Disclaimer: quick-check tools for preliminary sizing and teaching. They ignore load factors, soil variability, deflection limits, detailing rules and local codes — never use calculator output for construction. All stamped design by Bedrock carries PE sign-off, independent proof-check and PI insurance.</p>
+          <p className="mt-6 text-xs text-[#0A1628]/45 leading-relaxed max-w-3xl">Disclaimer: quick-check tools for preliminary sizing and teaching. They ignore load factors, soil variability, deflection limits, detailing rules and local codes — never use calculator output for construction. All stamped design by Civil Engineer carries PE sign-off, independent proof-check and PI insurance.</p>
         </div>
       </section>
     </div>

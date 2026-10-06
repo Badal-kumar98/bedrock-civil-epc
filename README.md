@@ -1,4 +1,4 @@
-# Bedrock Civil — Civil Engineering & EPC Contractor Platform 🏗️
+# Civil Engineer — Civil Engineering & EPC Contractor Platform 🏗️
 
 > **Enterprise-grade civil infrastructure, structural engineering, and EPC contractor web portal built with React 19, TypeScript, and Tailwind CSS v4.**
 
@@ -9,7 +9,7 @@
 
 ## 🌟 Overview
 
-**Bedrock Civil** is a comprehensive corporate web application designed for multi-disciplinary EPC (Engineering, Procurement, Construction) conglomerates. It showcases multi-million dollar structural projects, transportation viaducts, tunneling systems, deep foundation geotechnical data, and client consultation portals.
+**Civil Engineer** is a comprehensive corporate web application designed for multi-disciplinary EPC (Engineering, Procurement, Construction) conglomerates. It showcases multi-million dollar structural projects, transportation viaducts, tunneling systems, deep foundation geotechnical data, and client consultation portals.
 
 ### ✨ Key Features
 - **Project Case Studies Showcase**: High-resolution project portfolios spanning bridges, high-rise structural systems, dams, and rapid rail transit corridors.

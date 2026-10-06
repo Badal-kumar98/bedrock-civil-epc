@@ -3,9 +3,9 @@ import { MapPin, Phone, Mail, Clock, Send, CheckCircle2, HardHat, FileUp } from 
 import { Reveal, SectionTag, PageHero } from "../components/ui";
 
 const offices = [
-  { city: "Houston — HQ", addr: "400 Meridian Parkway, Suite 1200, Houston, TX 77001", ph: "+1 (800) 555-0194", tag: "EPC · Design hub · Labs" },
-  { city: "Dallas Site Office", addr: "88 Corridor Rd, Industrial Estate, Dallas, TX 75201", ph: "+1 (800) 555-0195", tag: "Highways · TBM depot" },
-  { city: "Phoenix Office", addr: "12 Reservoir View, Water Works Rd, Phoenix, AZ 85001", ph: "+1 (800) 555-0196", tag: "Dams · Geotech lab" },
+  { city: "Corporate HQ — Noida", addr: "Sector 62, Noida, Delhi NCR, India - 201301", ph: "+91 1234567890", tag: "EPC · Design hub · Labs" },
+  { city: "Regional Office — Delhi NCR", addr: "Connaught Place, New Delhi, India - 110001", ph: "+91 1234567890", tag: "Highways & Infrastructure" },
+  { city: "Operations & Geotech Hub", addr: "Industrial Area, Sector 62, Noida, UP, India", ph: "+91 1234567890", tag: "Site Fleet · Geotech lab" },
 ];
 
 const projectTypes = ["Bridge / Flyover", "Road / Expressway", "Dam / Water / STP", "Tunnel / Metro", "High-rise / Commercial", "Industrial / Warehouse", "Survey / Proof-check only", "Other"];
@@ -40,19 +40,11 @@ export default function Contact() {
           <Reveal>
             <div className="bg-white border border-[#E2E8F0] rounded-sm p-7 md:p-10">
               {sent ? (
-                <div className="text-center py-14">
+                <div className="text-center py-16 px-4">
                   <CheckCircle2 size={64} className="text-emerald-500 mx-auto" />
-                  <h2 className="font-display font-bold uppercase text-4xl mt-6">Request received.</h2>
-                  <p className="text-[#0A1628]/60 mt-3 max-w-md mx-auto">Thanks, {form.name.split(" ")[0]}. A licensed engineer will call <span className="font-semibold text-[#0A1628]">{form.phone}</span> within one business day. Reference: <span className="font-mono font-bold text-orange-600">BR-2026-{Math.abs(form.name.length * 7919 + form.email.length * 104729) % 90000 + 10000}</span></p>
-                  <div className="mt-6 bg-[#F1F3F6] border border-[#E2E8F0] rounded-sm p-4 text-left text-sm max-w-md mx-auto">
-                    <p className="font-mono text-[11px] tracking-[0.25em] text-[#0A1628]/45 uppercase mb-2">// What happens next</p>
-                    <ol className="space-y-1.5 text-[#0A1628]/70 list-decimal list-inside">
-                      <li>PE reviews your scope (today)</li>
-                      <li>Site visit or video walkthrough scheduled</li>
-                      <li>Budget range + timeline in 5 working days</li>
-                    </ol>
-                  </div>
-                  <button onClick={() => { setSent(false); setForm({ name: "", phone: "", email: "", type: "Bridge / Flyover", location: "", message: "" }); }} className="mt-6 text-sm font-bold uppercase tracking-widest text-orange-600 hover:underline">Send another request</button>
+                  <h2 className="font-display font-bold uppercase text-3xl md:text-4xl mt-6">Thank You! Message Sent.</h2>
+                  <p className="text-[#0A1628]/75 mt-3 text-base md:text-lg max-w-md mx-auto leading-relaxed">Your message has been received successfully. Our engineering team will get in touch with you shortly.</p>
+                  <button onClick={() => { setSent(false); setForm({ name: "", phone: "", email: "", type: "Bridge / Flyover", location: "", message: "" }); }} className="mt-8 inline-flex items-center justify-center gap-2 bg-[#0A1628] hover:bg-orange-500 hover:text-[#0A1628] text-white font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-sm transition">Send another message</button>
                 </div>
               ) : (
                 <form onSubmit={submit} noValidate>
@@ -107,8 +99,8 @@ export default function Contact() {
                 <div className="relative">
                   <SectionTag index="C-01" label="Direct lines" dark />
                   <ul className="space-y-4 text-[15px]">
-                    <li className="flex gap-3"><Phone size={19} className="text-orange-400 shrink-0 mt-0.5" /><div><p className="font-mono text-[11px] tracking-widest text-white/45 uppercase">Tenders & new work</p><a href="tel:+18005550194" className="font-bold text-lg hover:text-orange-400 transition">+1 (800) 555-0194</a></div></li>
-                    <li className="flex gap-3"><Mail size={19} className="text-orange-400 shrink-0 mt-0.5" /><div><p className="font-mono text-[11px] tracking-widest text-white/45 uppercase">Email</p><a href="mailto:build@bedrockcivil.com" className="font-bold hover:text-orange-400 transition">build@bedrockcivil.com</a></div></li>
+                    <li className="flex gap-3"><Phone size={19} className="text-orange-400 shrink-0 mt-0.5" /><div><p className="font-mono text-[11px] tracking-widest text-white/45 uppercase">Tenders & new work</p><a href="tel:1234567890" className="font-bold text-lg hover:text-orange-400 transition">+91 1234567890</a></div></li>
+                    <li className="flex gap-3"><Mail size={19} className="text-orange-400 shrink-0 mt-0.5" /><div><p className="font-mono text-[11px] tracking-widest text-white/45 uppercase">Email</p><a href="mailto:testcivil@gmail.com" className="font-bold hover:text-orange-400 transition">testcivil@gmail.com</a></div></li>
                     <li className="flex gap-3"><Clock size={19} className="text-orange-400 shrink-0 mt-0.5" /><div><p className="font-mono text-[11px] tracking-widest text-white/45 uppercase">Hours</p><p className="font-semibold">Mon–Sat · 8:00–18:00 · 24/7 site emergency line</p></div></li>
                   </ul>
                 </div>

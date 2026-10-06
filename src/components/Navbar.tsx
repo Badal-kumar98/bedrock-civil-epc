@@ -33,8 +33,8 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-9">
           <p className="font-mono tracking-wide">ISO 9001:2015 · ISO 14001 · OHSAS 45001 CERTIFIED</p>
           <div className="flex items-center gap-6">
-            <a href="tel:+18005550194" className="flex items-center gap-1.5 hover:text-orange-400 transition"><Phone size={12} /> +1 (800) 555-0194</a>
-            <a href="mailto:build@bedrockcivil.com" className="flex items-center gap-1.5 hover:text-orange-400 transition"><Mail size={12} /> build@bedrockcivil.com</a>
+            <a href="tel:1234567890" className="flex items-center gap-1.5 hover:text-orange-400 transition"><Phone size={12} /> +91 1234567890</a>
+            <a href="mailto:testcivil@gmail.com" className="flex items-center gap-1.5 hover:text-orange-400 transition"><Mail size={12} /> testcivil@gmail.com</a>
           </div>
         </div>
       </div>
@@ -42,10 +42,10 @@ export default function Navbar() {
       <div className={`transition-all border-b ${scrolled ? "bg-[#0A1628]/95 backdrop-blur-md border-white/10 shadow-2xl" : "bg-[#0A1628] border-white/10"}`}>
         <div className="max-w-7xl mx-auto px-6 h-[68px] flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-lg bg-orange-500 grid place-items-center font-display font-800 text-2xl text-[#0A1628] font-bold">B</div>
+            <div className="w-10 h-10 rounded-lg bg-orange-500 grid place-items-center font-display font-800 text-2xl text-[#0A1628] font-bold">C</div>
             <div className="leading-none">
-              <p className="font-display font-bold text-white text-[22px] tracking-wide">BEDROCK<span className="text-orange-500">CIVIL</span></p>
-              <p className="font-mono text-[10px] tracking-[0.3em] text-white/50">EST. 1994 · EPC CONTRACTOR</p>
+              <p className="font-display font-bold text-white text-[22px] tracking-wide">CIVIL<span className="text-orange-500">ENGINEER</span></p>
+              <p className="font-mono text-[10px] tracking-[0.3em] text-white/50">EPC CONTRACTOR</p>
             </div>
           </Link>
           <nav className="hidden lg:flex items-center gap-1">
